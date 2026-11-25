@@ -1,0 +1,4 @@
+ID,cluster_by_length,cluster_by_rmsd,bin_index,clustering_mode,distance_mode
+output/s9_constant_alpha/pdb/tcr3010.pdb,10_8_19_0_0_0,output/s9_constant_alpha/pdb/tcr3010.pdb,6,exact,rmsd
+output/s9_constant_alpha/pdb/tcr3818.pdb,10_8_19_0_0_0,output/s9_constant_alpha/pdb/tcr3818.pdb,6,exact,rmsd
+output/s9_constant_alpha/pdb/tcr498.pdb,10_8_19_0_0_0,output/s9_constant_alpha/pdb/tcr498.pdb,6,exact,rmsd

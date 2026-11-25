@@ -1,0 +1,5 @@
+class,n_clusters,share
+Sequence-identical / near-identical,63,0.44680851063829785
+Sequence-similar,46,0.3262411347517731
+Sequence-diverse,26,0.18439716312056736
+Sequence-unrelated,6,0.0425531914893617

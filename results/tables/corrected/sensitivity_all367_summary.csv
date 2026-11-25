@@ -1,0 +1,12 @@
+method,unit,n_epitopes,n_epitopes_with_qualifying_cluster,median_sensitivity_where_nonzero,mean_sensitivity_all_epitopes
+DeepTCR,receptor (beta key),367,22,0.291066,0.018024
+Hamming_Distance,chain,367,18,0.205691,0.008525
+GIANA,chain,367,16,0.134815,0.006129
+Levenshtein_Distance,chain,367,15,0.16,0.005907
+iSMART,chain,367,14,0.110653,0.004715
+SPACE-TCR RMSD+dih (1A),receptor (paired),367,14,0.257891,0.010428
+SPACE-TCR RMSD (0.75A),receptor (paired),367,12,0.201224,0.007907
+GLIPH2,receptor (beta key),367,10,0.153394,0.005079
+TCRMatch,chain,367,7,0.071429,0.001428
+clusTCR,receptor (beta key),367,4,0.059772,0.000748
+TCRdist3,receptor (beta key),367,2,0.033379,0.000182

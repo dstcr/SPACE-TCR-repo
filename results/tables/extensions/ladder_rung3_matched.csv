@@ -1,0 +1,13 @@
+arm,selection,anchors,binned_on,threshold,purity,retention,n_clusters,n_models,epitope
+paired_fw,CDR_all,fw_all,CDR_all,0.5,0.962264,0.008732,26,17521,ALL
+paired_fw,CDR_all,fw_all,CDR_all,0.75,0.951613,0.029051,47,17521,ALL
+paired_fw,CDR_all,fw_all,CDR_all,1.0,0.837209,0.151019,100,17521,ALL
+paired_fw,CDR_all,fw_all,CDR_all,1.25,0.641807,0.440957,181,17521,ALL
+alpha_fw,CDR_A_all,fw_all,CDR_all,0.5,0.896104,0.026483,41,17521,ALL
+alpha_fw,CDR_A_all,fw_all,CDR_all,0.75,0.794749,0.157696,97,17521,ALL
+alpha_fw,CDR_A_all,fw_all,CDR_all,1.0,0.671088,0.48068,190,17521,ALL
+alpha_fw,CDR_A_all,fw_all,CDR_all,1.25,0.62069,0.738828,226,17521,ALL
+beta_fw,CDR_B_all,fw_all,CDR_all,0.5,0.97351,0.014326,35,17521,ALL
+beta_fw,CDR_B_all,fw_all,CDR_all,0.75,0.841772,0.106843,62,17521,ALL
+beta_fw,CDR_B_all,fw_all,CDR_all,1.0,0.663121,0.385423,161,17521,ALL
+beta_fw,CDR_B_all,fw_all,CDR_all,1.25,0.621977,0.650705,228,17521,ALL

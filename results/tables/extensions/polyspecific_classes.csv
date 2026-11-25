@@ -1,0 +1,40 @@
+method,class,n,frac,n_clusters
+DeepTCR,Bispecific (2 epitopes),1044,0.6412776412776413,1628
+DeepTCR,Highly polyspecific (>5 epitopes),1,6.142506142506142e-4,1628
+DeepTCR,Monospecific (1 epitope),311,0.19103194103194104,1628
+DeepTCR,Polyspecific (3-5 epitopes),272,0.16707616707616707,1628
+GIANA,Bispecific (2 epitopes),249,0.41989881956155145,593
+GIANA,Highly polyspecific (>5 epitopes),32,0.05396290050590219,593
+GIANA,Monospecific (1 epitope),200,0.3372681281618887,593
+GIANA,Polyspecific (3-5 epitopes),112,0.18887015177065766,593
+GLIPH2,Bispecific (2 epitopes),99,0.26052631578947366,380
+GLIPH2,Monospecific (1 epitope),264,0.6947368421052632,380
+GLIPH2,Polyspecific (3-5 epitopes),17,0.04473684210526316,380
+Hamming_Distance,Bispecific (2 epitopes),231,0.4215328467153285,548
+Hamming_Distance,Highly polyspecific (>5 epitopes),27,0.04927007299270073,548
+Hamming_Distance,Monospecific (1 epitope),186,0.33941605839416056,548
+Hamming_Distance,Polyspecific (3-5 epitopes),104,0.1897810218978102,548
+Levenshtein_Distance,Bispecific (2 epitopes),207,0.4190283400809717,494
+Levenshtein_Distance,Highly polyspecific (>5 epitopes),38,0.07692307692307693,494
+Levenshtein_Distance,Monospecific (1 epitope),161,0.3259109311740891,494
+Levenshtein_Distance,Polyspecific (3-5 epitopes),88,0.17813765182186234,494
+SPACE-TCR RMSD (0.75A),Bispecific (2 epitopes),8,0.053691275167785234,149
+SPACE-TCR RMSD (0.75A),Monospecific (1 epitope),141,0.9463087248322147,149
+SPACE-TCR RMSD+dih (1A),Bispecific (2 epitopes),34,0.19767441860465115,172
+SPACE-TCR RMSD+dih (1A),Monospecific (1 epitope),127,0.7383720930232558,172
+SPACE-TCR RMSD+dih (1A),Polyspecific (3-5 epitopes),11,0.06395348837209303,172
+TCRMatch,Bispecific (2 epitopes),91,0.3192982456140351,285
+TCRMatch,Highly polyspecific (>5 epitopes),1,0.0035087719298245615,285
+TCRMatch,Monospecific (1 epitope),171,0.6,285
+TCRMatch,Polyspecific (3-5 epitopes),22,0.07719298245614035,285
+TCRdist3,Bispecific (2 epitopes),423,0.6322869955156951,669
+TCRdist3,Highly polyspecific (>5 epitopes),41,0.061285500747384154,669
+TCRdist3,Monospecific (1 epitope),49,0.07324364723467862,669
+TCRdist3,Polyspecific (3-5 epitopes),156,0.23318385650224216,669
+clusTCR,Bispecific (2 epitopes),6,0.05405405405405406,111
+clusTCR,Monospecific (1 epitope),104,0.9369369369369369,111
+clusTCR,Polyspecific (3-5 epitopes),1,0.009009009009009009,111
+iSMART,Bispecific (2 epitopes),195,0.41935483870967744,465
+iSMART,Highly polyspecific (>5 epitopes),4,0.008602150537634409,465
+iSMART,Monospecific (1 epitope),193,0.4150537634408602,465
+iSMART,Polyspecific (3-5 epitopes),73,0.15698924731182795,465

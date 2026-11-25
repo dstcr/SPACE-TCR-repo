@@ -1,0 +1,11 @@
+Dummy-alpha control, Stage B input FASTAs.
+bin            = CDRB(10,8,13), the largest of the 26 beta-length bins
+n              = 1523 receptors (whole bin, so exact for this bin)
+alpha          = CONSTANT on every receptor, taken from tcr1
+dummy_alpha    = QKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMFIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVSSSDFLMFGDGTQLVVKP
+beta           = each receptor's own real V-domain, as extracted from the cohort PDBs
+format         = >B <beta> / >A <alpha>, one file per receptor, identical to
+                 stage1_stitchr.write_fastas output
+DO NOT run Stage A on these. They are already full V-domains; stitching would
+rebuild each alpha from its own gene calls and the alpha would stop being
+constant, which destroys the control.

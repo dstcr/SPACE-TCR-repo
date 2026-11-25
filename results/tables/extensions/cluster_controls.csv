@@ -1,0 +1,5 @@
+null,n_strata,n_receptors_in_strata_of_one,null_mean,null_sd,purity_observed,gain_over_null,z_vs_null,permutations_ge_observed,fraction_of_gap_explained
+Chance (labels shuffled freely),1,0,0.298675,0.006031,0.783923,0.485248,80.461,0,0.0
+Matched on V gene,1054,397,0.622106,0.005782,0.783923,0.161817,27.984,0,0.666528
+Matched on CDR3 length,121,23,0.474469,0.005889,0.783923,0.309453,52.55,0,0.362277
+Matched on V gene + CDR3 length,3004,2609,0.776804,0.001264,0.783923,0.007119,5.631,0,0.985329

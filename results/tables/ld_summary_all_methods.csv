@@ -1,0 +1,20 @@
+method,threshold,mode,n_clusters,median_ld,pct_le1,pct_2_3,pct_4_6,pct_gt6
+GLIPH2,NA,published,380,1,1,0,0,0
+Hamming_Distance,NA,published,548,1,1,0,0,0
+Levenshtein_Distance,NA,published,494,1,1,0,0,0
+SPACE-TCR RMSD (0.25A),0.25,SPACE-TCR RMSD,21,1,1,0,0,0
+SPACE-TCR RMSD (0.5A),0.5,SPACE-TCR RMSD,95,1,1,0,0,0
+SPACE-TCR RMSD+dih (0.25A),0.25,SPACE-TCR RMSD+dih,21,1,1,0,0,0
+SPACE-TCR RMSD+dih (0.5A),0.5,SPACE-TCR RMSD+dih,94,1,1,0,0,0
+TCRMatch,NA,published,285,1,1,0,0,0
+clusTCR,NA,published,111,1,1,0,0,0
+iSMART,NA,published,465,1,1,0,0,0
+GIANA,NA,published,593,2,0,1,0,0
+SPACE-TCR RMSD (0.75A),0.75,SPACE-TCR RMSD,149,2,0,1,0,0
+SPACE-TCR RMSD+dih (0.75A),0.75,SPACE-TCR RMSD+dih,139,2,0,1,0,0
+SPACE-TCR RMSD+dih (1A),1,SPACE-TCR RMSD+dih,172,3,0,1,0,0
+SPACE-TCR RMSD (1A),1,SPACE-TCR RMSD,202,3.75,0,0,1,0
+SPACE-TCR RMSD+dih (1.25A),1.25,SPACE-TCR RMSD+dih,221,4,0,0,1,0
+DeepTCR,NA,published,1628,6,0,0,1,0
+SPACE-TCR RMSD (1.25A),1.25,SPACE-TCR RMSD,321,6,0,0,1,0
+TCRdist3,NA,published,669,9,0,0,0,1

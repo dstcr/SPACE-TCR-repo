@@ -1,0 +1,5 @@
+method,clustered_validating,clustered_nonvalidating,unclustered_validating,unclustered_nonvalidating,rate_clustered,rate_unclustered,odds_ratio,p_one_sided,analysis
+SPACE-TCR RMSD (0.75A),199,39,358,555,0.8361,0.3921,7.9104,2.3635225778843685e-36,focal_0.75A_cdr3b
+SPACE-TCR RMSD (1A),273,63,284,531,0.8125,0.3485,8.1021,8.237185872266181e-49,focal_0.75A_cdr3b
+clusTCR,89,29,468,565,0.7542,0.453,3.7051,2.627358798633521e-10,focal_0.75A_cdr3b
+SPACE-TCR RMSD (1.25A),546,152,269,537,0.7822,0.3337,7.1709,1.2678762425744775e-70,permissive_1.25A_paired

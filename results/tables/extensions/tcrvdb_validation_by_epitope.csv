@@ -1,0 +1,7 @@
+analysis,epitope,cohort_keys,matched,validating,nonvalidating,ambiguous,validation_rate
+focal_0.75A_cdr3b,GILGFVFTL,455,416,201,137,78,0.5947
+focal_0.75A_cdr3b,NLVPMVATV,349,304,58,195,51,0.2292
+focal_0.75A_cdr3b,GLCTLVAML,170,139,74,38,27,0.6607
+focal_0.75A_cdr3b,YLQPRTFLL,307,287,113,140,34,0.4466
+focal_0.75A_cdr3b,TTDPSFLGRY,233,232,111,84,37,0.5692
+focal_0.75A_cdr3b,ALL,1514,1378,557,594,227,0.4839

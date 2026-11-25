@@ -1,0 +1,11 @@
+method,colour_group,n_clusters,median_size,mean_size
+DeepTCR,published,1628,2,2.7
+GIANA,published,593,2,3.6
+GLIPH2,published,380,3,7.7
+Hamming_Distance,published,548,2,4.1
+Levenshtein_Distance,published,494,2,5.2
+SPACE-TCR RMSD (0.75A),SPACE-TCR RMSD,149,2,4.6
+TCRMatch,published,285,2,2.6
+TCRdist3,published,669,2,3.2
+clusTCR,published,111,2,3.8
+iSMART,published,465,2,3.3

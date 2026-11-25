@@ -1,0 +1,10 @@
+{
+  "_comment": "GitHub About panel. Apply with: gh api -X PATCH repos/dstcr/SPACE-TCR-repo -f description=\"...\" -f homepage=\"\" ; and gh api -X PUT repos/dstcr/SPACE-TCR-repo/topics -f names[]=...",
+  "description": "Structure-guided clustering of paired αβ T-cell receptor repertoires — groups TCRs by predicted CDR-loop geometry rather than sequence. Reproduce the paper's headline numbers in a few minutes with R alone: see README.md. Includes the Slurm pipeline, benchmarks against 9 sequence methods, and 137 tests.",
+  "homepage": "",
+  "topics": [
+    "tcr", "t-cell-receptor", "immunoinformatics", "structural-bioinformatics",
+    "repertoire-analysis", "clustering", "epitope-prediction", "imgt",
+    "bioinformatics-pipeline", "slurm", "r", "python"
+  ]
+}

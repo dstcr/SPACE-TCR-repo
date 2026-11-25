@@ -1,0 +1,66 @@
+method,cluster,n_members,n_islands
+SPACE-TCR RMSD (0.75A),r0.75_bin_00000.pairwise.tsv.gz_86,38,3
+SPACE-TCR RMSD (0.75A),r0.75_bin_00005.pairwise.tsv.gz_28,8,2
+SPACE-TCR RMSD (0.75A),r0.75_bin_00000.pairwise.tsv.gz_99,7,2
+SPACE-TCR RMSD (0.75A),r0.75_bin_00001.pairwise.tsv.gz_62,4,2
+SPACE-TCR RMSD (0.75A),r0.75_bin_00048.pairwise.tsv.gz_9,3,2
+SPACE-TCR RMSD (0.75A),r0.75_bin_00050.pairwise.tsv.gz_3,3,2
+SPACE-TCR RMSD (0.75A),r0.75_bin_00003.pairwise.tsv.gz_19,10,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00000.pairwise.tsv.gz_96,8,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00001.pairwise.tsv.gz_52,7,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00003.pairwise.tsv.gz_22,4,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00016.pairwise.tsv.gz_10,4,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00130.pairwise.tsv.gz_4,4,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00000.pairwise.tsv.gz_102,3,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00001.pairwise.tsv.gz_59,3,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00016.pairwise.tsv.gz_11,3,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00000.pairwise.tsv.gz_101,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00000.pairwise.tsv.gz_103,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00000.pairwise.tsv.gz_104,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00001.pairwise.tsv.gz_45,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00003.pairwise.tsv.gz_20,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00009.pairwise.tsv.gz_7,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00014.pairwise.tsv.gz_10,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00021.pairwise.tsv.gz_5,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00026.pairwise.tsv.gz_6,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00027.pairwise.tsv.gz_10,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00048.pairwise.tsv.gz_14,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00178.pairwise.tsv.gz_2,2,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00001.pairwise.tsv.gz_57,1,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00001.pairwise.tsv.gz_60,1,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00016.pairwise.tsv.gz_13,1,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00026.pairwise.tsv.gz_7,1,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00027.pairwise.tsv.gz_9,1,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00037.pairwise.tsv.gz_3,1,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00045.pairwise.tsv.gz_2,1,1
+SPACE-TCR RMSD (0.75A),r0.75_bin_00126.pairwise.tsv.gz_4,1,1
+clusTCR,clusTCR_3,19,1
+clusTCR,clusTCR_5,12,1
+clusTCR,clusTCR_1,8,1
+clusTCR,clusTCR_8,7,1
+clusTCR,clusTCR_11,4,1
+clusTCR,clusTCR_18,4,1
+clusTCR,clusTCR_45,4,1
+clusTCR,clusTCR_15,3,1
+clusTCR,clusTCR_0,2,1
+clusTCR,clusTCR_10,2,1
+clusTCR,clusTCR_100,2,1
+clusTCR,clusTCR_26,2,1
+clusTCR,clusTCR_32,2,1
+clusTCR,clusTCR_33,2,1
+clusTCR,clusTCR_50,2,1
+clusTCR,clusTCR_69,2,1
+clusTCR,clusTCR_70,2,1
+clusTCR,clusTCR_77,2,1
+clusTCR,clusTCR_79,2,1
+clusTCR,clusTCR_84,2,1
+clusTCR,clusTCR_107,1,1
+clusTCR,clusTCR_109,1,1
+clusTCR,clusTCR_42,1,1
+clusTCR,clusTCR_51,1,1
+clusTCR,clusTCR_52,1,1
+clusTCR,clusTCR_55,1,1
+clusTCR,clusTCR_6,1,1
+clusTCR,clusTCR_78,1,1
+clusTCR,clusTCR_89,1,1
+clusTCR,clusTCR_95,1,1

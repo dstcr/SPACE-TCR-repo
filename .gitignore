@@ -1,0 +1,66 @@
+# ---- Run output -----------------------------------------------------------
+# Slurm logs. logs/.gitkeep keeps the folder so sbatch's --output paths resolve.
+logs/*
+!logs/.gitkeep
+
+# Pipeline output (WORK_DIR), in case WORK_DIR is set inside the repository.
+# The predicted structures are on Zenodo (record 23765886).
+output/
+*.pdb
+*.fasta
+*.tsv.gz
+# The published methods' cluster assignments, used by ml/ (100 KB).
+!ml/data/published_clusters.tsv.gz
+# Figure S9: the constant-alpha run's distance tables and dihedrals.
+!results/tables/extensions/s9_constant_alpha/*.tsv.gz
+!results/tables/extensions/s9_constant_alpha_dihedrals.tsv.gz
+sbatch/slurm-*.out
+
+# ---- Input data -----------------------------------------------------------
+# Your own input tables go in data/ and are not tracked. The two benchmarks
+# shipped with the paper are: the labelled cohort input, the Benchmark A
+# ladder, and the Stage C/D output for both. See data/README.md.
+data/*
+!data/.gitkeep
+!data/README.md
+!data/jouannet_labelled_input.tsv
+!data/benchmark_a/
+!data/benchmark_a/**
+!data/cohort_structural/
+!data/cohort_structural/**
+# The distance and dihedral tables are .tsv.gz, so they are re-included
+# explicitly (the *.tsv.gz rule above applies inside data/ too).
+!data/cohort_structural/distance_tables/*.tsv.gz
+!data/cohort_structural/dihedrals.tsv.gz
+!data/benchmark_a/subset4_clusters/distance_tables/*.tsv.gz
+!data/benchmark_a/subset4_dihedrals/dihedrals.tsv.gz
+
+# ---- Local configuration --------------------------------------------------
+# config.sh holds the shared defaults. For machine-specific settings use
+# config.local.sh and pass it with SPTCE_CONFIG=.../config.local.sh
+config.local.sh
+config.*.local.sh
+
+# ---- Editor and build files -----------------------------------------------
+*.bak
+*~
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.py[co]
+.DS_Store
+
+# numba caches (architecture- and version-specific; regenerated on first run)
+*.nbc
+*.nbi
+build/
+*.egg-info/
+ml_out/
+ml/**/__pycache__/
+
+# Dummy-alpha control: predicted structures, logs and sequence tables. Only
+# the id lists are tracked.
+work/m_dummy/
+work/*.log
+work/seqs.tsv

@@ -1,0 +1,17 @@
+arm,selection,anchors,threshold,purity,retention,n_clusters,n_models,epitope
+paired_fw,CDR_all,fw_all,0.5,0.989822,0.097494,95,4031,ALL
+paired_fw,CDR_all,fw_all,0.75,0.986784,0.168941,149,4031,ALL
+paired_fw,CDR_all,fw_all,1.0,0.924,0.248077,202,4031,ALL
+paired_fw,CDR_all,fw_all,1.25,0.7842,0.386257,321,4031,ALL
+alpha_fw,CDR_A_all,fw_all,0.5,0.946341,0.152568,155,4031,ALL
+alpha_fw,CDR_A_all,fw_all,0.75,0.808299,0.298933,210,4031,ALL
+alpha_fw,CDR_A_all,fw_all,1.0,0.551356,0.557926,290,4031,ALL
+alpha_fw,CDR_A_all,fw_all,1.25,0.384517,0.778715,187,4031,ALL
+beta_fw,CDR_B_all,fw_all,0.5,0.975524,0.1419,97,4031,ALL
+beta_fw,CDR_B_all,fw_all,0.75,0.673502,0.314562,151,4031,ALL
+beta_fw,CDR_B_all,fw_all,1.0,0.387697,0.612999,122,4031,ALL
+beta_fw,CDR_B_all,fw_all,1.25,0.274368,0.824609,71,4031,ALL
+paired_noframe,CDR_all,CDR_all,0.5,0.985882,0.105433,99,4031,ALL
+paired_noframe,CDR_all,CDR_all,0.75,0.972826,0.182585,158,4031,ALL
+paired_noframe,CDR_all,CDR_all,1.0,0.882404,0.284793,226,4031,ALL
+paired_noframe,CDR_all,CDR_all,1.25,0.695423,0.471595,361,4031,ALL

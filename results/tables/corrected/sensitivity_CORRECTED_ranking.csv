@@ -1,0 +1,12 @@
+method,unit,mean_corrected,rank_corrected
+DeepTCR,receptor (beta key),0.3396971697036185,1
+SPACE-TCR RMSD+dih (1A),receptor (paired),0.30726109086964626,2
+SPACE-TCR RMSD (0.75A),receptor (paired),0.2648320745799112,3
+Hamming_Distance,chain,0.13756227988777378,4
+GLIPH2,receptor (beta key),0.13567402620121752,5
+GIANA,chain,0.09729967410007437,6
+iSMART,chain,0.09653508152913322,7
+Levenshtein_Distance,chain,0.08235959761270892,8
+clusTCR,receptor (beta key),0.04249766470396843,9
+TCRMatch,chain,0.0175787728026534,10
+TCRdist3,receptor (beta key),0.007326007326007327,11

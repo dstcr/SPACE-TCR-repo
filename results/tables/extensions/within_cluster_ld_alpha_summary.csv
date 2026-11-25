@@ -1,0 +1,7 @@
+method,n_clusters,median_of_medians,q25,q75,max_ld,source
+TCRdist3,653,8,7,9,15,paired output
+GLIPH2,468,7,3,9,14,paired output
+DeepTCR,1587,6,3,8,14,paired output
+clusTCR,54,1,1,1,2,paired output
+SPACE-TCR RMSD+dih (1A),145,3,1,5,10,sptce_clusters
+SPACE-TCR RMSD (0.75A),114,2,1,2.375,8,sptce_clusters

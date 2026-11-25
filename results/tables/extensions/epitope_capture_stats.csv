@@ -1,0 +1,12 @@
+method,total_clusters,total_tcrs_clustered,n_distinct_epitopes_seen,n_epitopes_hi_purity,n_epitopes_hi_purity_big,n_hi_purity_clusters,n_big_hi_purity_clusters,median_cluster_size,max_cluster_size
+DeepTCR,1628,4405,266,48,14,315,62,2,29
+GLIPH2,380,2940,60,27,10,280,107,3,190
+Hamming_Distance,548,2248,128,36,10,194,25,2,68
+SPACE-TCR RMSD+dih (1A),172,903,40,25,10,131,33,2.5,107
+SPACE-TCR RMSD (0.75A),149,681,26,26,9,141,34,2,56
+Levenshtein_Distance,494,2564,115,33,8,164,15,2,153
+iSMART,465,1538,103,31,8,200,27,2,37
+GIANA,593,2121,130,32,7,206,25,2,45
+clusTCR,111,426,21,19,5,105,13,2,39
+TCRMatch,285,744,65,23,4,172,8,2,14
+TCRdist3,669,2152,145,11,2,49,2,2,34

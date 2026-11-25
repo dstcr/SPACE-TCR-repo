@@ -1,0 +1,14 @@
+ID,cluster_by_length,cluster_by_rmsd,bin_index,clustering_mode,distance_mode
+output/s9_constant_alpha/pdb/tcr1298.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr1298.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr16.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr16.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr1629.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr1629.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr163.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr163.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr1822.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr1822.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr3283.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr3283.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr3791.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr3791.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr3855.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr3855.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr3972.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr3972.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr4453.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr4453.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr4535.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr4535.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr57.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr57.pdb,5,exact,rmsd
+output/s9_constant_alpha/pdb/tcr695.pdb,10_8_18_0_0_0,output/s9_constant_alpha/pdb/tcr695.pdb,5,exact,rmsd

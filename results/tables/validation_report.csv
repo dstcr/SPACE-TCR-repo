@@ -1,0 +1,36 @@
+check,expected,actual,status
+cohort input: paired receptors,"4,779","4,779",PASS
+cohort input: distinct ids,"4,779","4,779",PASS
+cohort input: distinct CDR3b,"4,292","4,292",PASS
+cohort input: distinct epitopes,367,367,PASS
+cohort input: rows with a missing field,0,0,PASS
+ladder rung 1: paired receptors,"3,056","3,056",PASS
+ladder rung 2: paired receptors,"8,089","8,089",PASS
+ladder rung 3: paired receptors,"21,413","21,413",PASS
+ladder rung 4: paired receptors,"23,529","23,529",PASS
+ladder rung 5: paired receptors,"23,529","23,529",PASS
+ladder rung 6: paired receptors,"23,529","23,529",PASS
+ladder is strictly nested (rung i within i+1),1,1,PASS
+"rungs 4, 5, 6 are the same receptor set",1,1,PASS
+cohort: pairwise distance tables on disk,828,828,PASS
+cohort: dihedral table present,1,1,PASS
+ladder: pairwise distance tables on disk,"1,704","1,704",PASS
+ladder: dihedral table present,1,1,PASS
+cohort: pairwise tables all readable,1,1,PASS
+focal 0.75 A: clusters of size >= 2,149,149,PASS
+focal 0.75 A: receptors clustered,681,681,PASS
+focal 0.75 A: share of clusters with purity >= 0.9,0.94631,0.94631,PASS
+paired-unit denominator for FLCMKALLL,81,81,PASS
+paired-unit denominator for GILGFVFTL,705,705,PASS
+paired-unit denominator for GLCTLVAML,215,215,PASS
+paired-unit denominator for LLFGYPVYV,10,10,PASS
+paired-unit denominator for NLVPMVATV,397,397,PASS
+paired-unit denominator for NYNYLYRLF,56,56,PASS
+corrected sensitivities all <= 1,0,0,PASS
+rung 1: labelled receptors,"3,056","3,056",PASS
+rung 2: labelled receptors,"3,056","3,056",PASS
+rung 3: labelled receptors,"3,056","3,056",PASS
+rung 4: labelled receptors,"3,056","3,056",PASS
+rung 5: labelled receptors,"3,056","3,056",PASS
+rung 6: labelled receptors,"3,056","3,056",PASS
+labelled count constant across the ladder,1,1,PASS

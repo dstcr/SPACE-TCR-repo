@@ -1,0 +1,23 @@
+stage_id,method,n_rows,n_unique_cdr3b,pct_of_universe
+0. Shared CDR3b universe,- (all methods),6163,6163,100
+"1. Input rows (paired-TCR count, s5$total_n)",-,4779,NA,NA
+2. SPACE-TCR RMSD (0.75A) - raw rows,SPACE-TCR RMSD (0.75A),681,457,7.41521986045757
+3. SPACE-TCR RMSD (0.75A) - unique cdr3b in any cluster,SPACE-TCR RMSD (0.75A),561,457,7.41521986045757
+4. SPACE-TCR RMSD (0.75A) - unique cdr3b in cluster size >= 2,SPACE-TCR RMSD (0.75A),545,446,7.236735356157715
+2. SPACE-TCR RMSD+dih (1A) - raw rows,SPACE-TCR RMSD+dih (1A),903,654,10.611715073827682
+3. SPACE-TCR RMSD+dih (1A) - unique cdr3b in any cluster,SPACE-TCR RMSD+dih (1A),751,654,10.611715073827682
+4. SPACE-TCR RMSD+dih (1A) - unique cdr3b in cluster size >= 2,SPACE-TCR RMSD+dih (1A),735,642,10.417004705500569
+2. clusTCR - raw rows,clusTCR,426,227,3.6832711341878954
+3. clusTCR - unique cdr3b in any cluster,clusTCR,277,227,3.6832711341878954
+4. clusTCR - unique cdr3b in cluster size >= 2,clusTCR,246,201,3.2613986694791497
+2. GLIPH2 - raw rows,GLIPH2,2940,713,11.569041051435988
+3. GLIPH2 - unique cdr3b in any cluster,GLIPH2,1201,713,11.569041051435988
+4. GLIPH2 - unique cdr3b in cluster size >= 2,GLIPH2,1201,713,11.569041051435988
+5. SPACE-TCR RMSD (0.75A) AND clusTCR - cdr3b in both,SPACE-TCR RMSD (0.75A) AND clusTCR,171,171,2.774622748661366
+6. SPACE-TCR RMSD (0.75A) + clusTCR - cdr3b in consensus size >= 2,SPACE-TCR RMSD (0.75A) + clusTCR,356,136,2.2067175077072854
+5. SPACE-TCR RMSD (0.75A) AND GLIPH2 - cdr3b in both,SPACE-TCR RMSD (0.75A) AND GLIPH2,296,296,4.802855752068798
+6. SPACE-TCR RMSD (0.75A) + GLIPH2 - cdr3b in consensus size >= 2,SPACE-TCR RMSD (0.75A) + GLIPH2,568,225,3.6508194061333765
+5. SPACE-TCR RMSD+dih (1A) AND clusTCR - cdr3b in both,SPACE-TCR RMSD+dih (1A) AND clusTCR,183,183,2.9693331169884796
+6. SPACE-TCR RMSD+dih (1A) + clusTCR - cdr3b in consensus size >= 2,SPACE-TCR RMSD+dih (1A) + clusTCR,349,150,2.4338796040889177
+5. SPACE-TCR RMSD+dih (1A) AND GLIPH2 - cdr3b in both,SPACE-TCR RMSD+dih (1A) AND GLIPH2,357,357,5.7926334577316245
+6. SPACE-TCR RMSD+dih (1A) + GLIPH2 - cdr3b in consensus size >= 2,SPACE-TCR RMSD+dih (1A) + GLIPH2,647,269,4.364757423332793

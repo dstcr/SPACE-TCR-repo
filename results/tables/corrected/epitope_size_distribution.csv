@@ -1,0 +1,10 @@
+statistic,value
+n_epitopes,367
+median_unique_cdr3b,3
+mean_unique_cdr3b,11.7302
+n_ge_4,148
+pct_ge_4,40.33
+n_ge_10,47
+pct_ge_10,12.81
+n_ge_50,15
+pct_ge_50,4.09

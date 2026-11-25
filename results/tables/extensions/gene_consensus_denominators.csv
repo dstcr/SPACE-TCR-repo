@@ -1,0 +1,12 @@
+method,clusters_epitope,clusters_gene,gene_denominator_frac
+DeepTCR,1628,1628,1
+GIANA,593,175,0.295
+GLIPH2,380,380,1
+Hamming_Distance,548,187,0.341
+Levenshtein_Distance,494,195,0.395
+SPACE-TCR RMSD (0.75A),149,149,1
+SPACE-TCR RMSD+dih (1A),172,172,1
+TCRMatch,285,97,0.34
+TCRdist3,669,669,1
+clusTCR,111,111,1
+iSMART,465,180,0.387

@@ -1,0 +1,669 @@
+{
+  "split": {
+    "n_epitopes_total": 176,
+    "n_epitopes_test": 53,
+    "test_epitopes": [
+      "AAGIGILTV",
+      "AIFYLITPV",
+      "ALLPGLPAA",
+      "ALSKGVHFV",
+      "ALYGFVPVL",
+      "AMQTMLFTM",
+      "CPACYNSEV",
+      "CTELKLSDY",
+      "CVNGSCFTV",
+      "DQVILLNKH",
+      "EAAGIGILTV",
+      "ELYHYQECV",
+      "FLNRFTTTL",
+      "FLTENLLLY",
+      "FLVLLPLVS",
+      "FVCDNIKFA",
+      "FVNEFYAYL",
+      "GILGFVFTL",
+      "GLMWLSYFI",
+      "GLMWLSYFV",
+      "GLPWNVVRI",
+      "ILRKGGRTI",
+      "KLQFTSLEI",
+      "KLSALGINAV",
+      "KVYPIILRL",
+      "LLWNGPMAV",
+      "LLYDANYFL",
+      "LMIERFVSL",
+      "LPNNTASWF",
+      "MLFTMLRKL",
+      "MPASWVMRI",
+      "NLNCCSVPV",
+      "NPTIQKNVL",
+      "QELIRQGTDY",
+      "RIMTWLDMV",
+      "RPPIFIRRL",
+      "RQLLFVVEV",
+      "RTIKVFTTV",
+      "RYPLTFGWCF",
+      "SLLMWITQC",
+      "SPYNSQNAV",
+      "SWMESEFRV",
+      "TLIVNSVLL",
+      "TPRVTGGGAM",
+      "VLGSLAATV",
+      "VVMSWAPPV",
+      "VYAWNRKRI",
+      "VYFLQSINF",
+      "VYIGDPAQL",
+      "WPVTLACFV",
+      "WPWYIWLGF",
+      "YANRNRFLY",
+      "YTNSFTRGV"
+    ],
+    "n_train": 874,
+    "n_test": 674,
+    "n_test_dropped_shared_cdr3b": 7
+  },
+  "results": {
+    "pair_level": {
+      "n_pairs": 16619,
+      "n_positive": 10000,
+      "model_auroc": 0.6844000302160447,
+      "model_ap": 0.7745067438014929,
+      "levenshtein_auroc": 0.6468542151382384,
+      "levenshtein_ap": 0.7355328602099407
+    },
+    "pair_level_sequence_diverse_only": {
+      "n_divergent_positives": 7348,
+      "model_auroc": 0.5986908738251497,
+      "levenshtein_auroc": 0.5317119609892276
+    },
+    "structural_truth": {
+      "n_clusters": 93,
+      "n_units_clustered": 626,
+      "n_rows_clustered": 626,
+      "retention": 0.9287833827893175,
+      "purity": 0.9233226837060703,
+      "pct_clusters_hi": 0.6344086021505376,
+      "pct_units_hi": 0.8083067092651757,
+      "polyspecificity": 0.3978494623655914,
+      "unit": "receptor_id",
+      "denom": 674,
+      "label": "SPACE-TCR (truth)",
+      "pct_hi_clusters_sequence_diverse": 0.7457627118644068,
+      "median_ld_of_hi_clusters": 5.0
+    },
+    "model_sweep": [
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 0.05
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 0.19090909090909092
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 0.3318181818181818
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 0.4727272727272727
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 0.6136363636363636
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 0.7545454545454545
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 0.8954545454545455
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 1.0363636363636364
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 1.1772727272727272
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 1.3181818181818181
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 1.459090909090909
+      },
+      {
+        "n_clusters": 71,
+        "n_units_clustered": 652,
+        "n_rows_clustered": 652,
+        "retention": 0.9673590504451038,
+        "purity": 0.8834355828220859,
+        "pct_clusters_hi": 0.5211267605633803,
+        "pct_units_hi": 0.7147239263803681,
+        "polyspecificity": 0.5352112676056338,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "distilled model",
+        "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 1.6
+      }
+    ],
+    "model": {
+      "n_clusters": 71,
+      "n_units_clustered": 652,
+      "n_rows_clustered": 652,
+      "retention": 0.9673590504451038,
+      "purity": 0.8834355828220859,
+      "pct_clusters_hi": 0.5211267605633803,
+      "pct_units_hi": 0.7147239263803681,
+      "polyspecificity": 0.5352112676056338,
+      "unit": "receptor_id",
+      "denom": 674,
+      "label": "distilled model",
+      "pct_hi_clusters_sequence_diverse": 0.8378378378378378,
+      "median_ld_of_hi_clusters": 5.0,
+      "threshold": 0.05,
+      "reached_truth_purity": false
+    },
+    "levenshtein_sweep": [
+      {
+        "n_clusters": 50,
+        "n_units_clustered": 313,
+        "n_rows_clustered": 313,
+        "retention": 0.46439169139465875,
+        "purity": 0.9968051118210862,
+        "pct_clusters_hi": 0.98,
+        "pct_units_hi": 0.9744408945686901,
+        "polyspecificity": 0.02,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "Levenshtein CDR3b",
+        "pct_hi_clusters_sequence_diverse": 0.0,
+        "median_ld_of_hi_clusters": 1.0,
+        "threshold": 1.0
+      },
+      {
+        "n_clusters": 51,
+        "n_units_clustered": 395,
+        "n_rows_clustered": 395,
+        "retention": 0.586053412462908,
+        "purity": 0.9924050632911392,
+        "pct_clusters_hi": 0.9607843137254902,
+        "pct_units_hi": 0.9746835443037974,
+        "polyspecificity": 0.058823529411764705,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "Levenshtein CDR3b",
+        "pct_hi_clusters_sequence_diverse": 0.04081632653061224,
+        "median_ld_of_hi_clusters": 2.0,
+        "threshold": 2.0
+      },
+      {
+        "n_clusters": 57,
+        "n_units_clustered": 463,
+        "n_rows_clustered": 463,
+        "retention": 0.6869436201780416,
+        "purity": 0.980561555075594,
+        "pct_clusters_hi": 0.8596491228070176,
+        "pct_units_hi": 0.9136069114470843,
+        "polyspecificity": 0.14035087719298245,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "Levenshtein CDR3b",
+        "pct_hi_clusters_sequence_diverse": 0.14285714285714285,
+        "median_ld_of_hi_clusters": 3.0,
+        "threshold": 3.0
+      },
+      {
+        "n_clusters": 60,
+        "n_units_clustered": 523,
+        "n_rows_clustered": 523,
+        "retention": 0.7759643916913946,
+        "purity": 0.9598470363288719,
+        "pct_clusters_hi": 0.7666666666666667,
+        "pct_units_hi": 0.864244741873805,
+        "polyspecificity": 0.26666666666666666,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "Levenshtein CDR3b",
+        "pct_hi_clusters_sequence_diverse": 0.5217391304347826,
+        "median_ld_of_hi_clusters": 4.0,
+        "threshold": 4.0
+      },
+      {
+        "n_clusters": 62,
+        "n_units_clustered": 569,
+        "n_rows_clustered": 569,
+        "retention": 0.844213649851632,
+        "purity": 0.9402460456942003,
+        "pct_clusters_hi": 0.7096774193548387,
+        "pct_units_hi": 0.8260105448154658,
+        "polyspecificity": 0.3387096774193548,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "Levenshtein CDR3b",
+        "pct_hi_clusters_sequence_diverse": 0.6590909090909091,
+        "median_ld_of_hi_clusters": 4.0,
+        "threshold": 5.0
+      },
+      {
+        "n_clusters": 62,
+        "n_units_clustered": 596,
+        "n_rows_clustered": 596,
+        "retention": 0.884272997032641,
+        "purity": 0.9261744966442953,
+        "pct_clusters_hi": 0.6935483870967742,
+        "pct_units_hi": 0.7936241610738255,
+        "polyspecificity": 0.3709677419354839,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "Levenshtein CDR3b",
+        "pct_hi_clusters_sequence_diverse": 0.6744186046511628,
+        "median_ld_of_hi_clusters": 4.0,
+        "threshold": 6.0
+      },
+      {
+        "n_clusters": 64,
+        "n_units_clustered": 625,
+        "n_rows_clustered": 625,
+        "retention": 0.9272997032640949,
+        "purity": 0.8976,
+        "pct_clusters_hi": 0.546875,
+        "pct_units_hi": 0.7296,
+        "polyspecificity": 0.515625,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "Levenshtein CDR3b",
+        "pct_hi_clusters_sequence_diverse": 0.7428571428571429,
+        "median_ld_of_hi_clusters": 4.0,
+        "threshold": 7.0
+      },
+      {
+        "n_clusters": 68,
+        "n_units_clustered": 639,
+        "n_rows_clustered": 639,
+        "retention": 0.9480712166172107,
+        "purity": 0.8904538341158059,
+        "pct_clusters_hi": 0.5294117647058824,
+        "pct_units_hi": 0.7214397496087637,
+        "polyspecificity": 0.5294117647058824,
+        "unit": "receptor_id",
+        "denom": 674,
+        "label": "Levenshtein CDR3b",
+        "pct_hi_clusters_sequence_diverse": 0.8055555555555556,
+        "median_ld_of_hi_clusters": 5.0,
+        "threshold": 8.0
+      }
+    ],
+    "levenshtein": {
+      "n_clusters": 62,
+      "n_units_clustered": 596,
+      "n_rows_clustered": 596,
+      "retention": 0.884272997032641,
+      "purity": 0.9261744966442953,
+      "pct_clusters_hi": 0.6935483870967742,
+      "pct_units_hi": 0.7936241610738255,
+      "polyspecificity": 0.3709677419354839,
+      "unit": "receptor_id",
+      "denom": 674,
+      "label": "Levenshtein CDR3b",
+      "pct_hi_clusters_sequence_diverse": 0.6744186046511628,
+      "median_ld_of_hi_clusters": 4.0,
+      "threshold": 6.0,
+      "reached_truth_purity": true
+    },
+    "agreement_with_structure": {
+      "model_ari": 0.9356086081449599,
+      "levenshtein_ari": 0.9377345699465932
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.1389516295912938,
+      "val_auroc": 0.898726618705036
+    },
+    {
+      "epoch": 2,
+      "loss": 0.11186986970595825,
+      "val_auroc": 0.9038563134978229
+    },
+    {
+      "epoch": 3,
+      "loss": 0.11073965407334842,
+      "val_auroc": 0.8869652173913043
+    },
+    {
+      "epoch": 4,
+      "loss": 0.10973484451190019,
+      "val_auroc": 0.8719641319942611
+    },
+    {
+      "epoch": 5,
+      "loss": 0.1004576041148259,
+      "val_auroc": 0.8151864161849711
+    },
+    {
+      "epoch": 6,
+      "loss": 0.07708297736751728,
+      "val_auroc": 0.8221331403762663
+    },
+    {
+      "epoch": 7,
+      "loss": 0.05923108336253044,
+      "val_auroc": 0.8231262272089761
+    },
+    {
+      "epoch": 8,
+      "loss": 0.050815099420455784,
+      "val_auroc": 0.8155346097201768
+    },
+    {
+      "epoch": 9,
+      "loss": 0.04640316084409372,
+      "val_auroc": 0.8032604316546763
+    },
+    {
+      "epoch": 10,
+      "loss": 0.04104292688843531,
+      "val_auroc": 0.8074436310395314
+    },
+    {
+      "epoch": 11,
+      "loss": 0.038384115180143945,
+      "val_auroc": 0.7848291666666667
+    },
+    {
+      "epoch": 12,
+      "loss": 0.034133998008492664,
+      "val_auroc": 0.8145828651685393
+    },
+    {
+      "epoch": 13,
+      "loss": 0.0319772913860969,
+      "val_auroc": 0.8023109243697479
+    },
+    {
+      "epoch": 14,
+      "loss": 0.029163729208402146,
+      "val_auroc": 0.7978519553072626
+    },
+    {
+      "epoch": 15,
+      "loss": 0.028199028462553635,
+      "val_auroc": 0.7909224011713031
+    },
+    {
+      "epoch": 16,
+      "loss": 0.02647502304842839,
+      "val_auroc": 0.7878362068965518
+    },
+    {
+      "epoch": 17,
+      "loss": 0.027438991822493382,
+      "val_auroc": 0.7940978417266187
+    },
+    {
+      "epoch": 18,
+      "loss": 0.02562877951333156,
+      "val_auroc": 0.7988424753867792
+    },
+    {
+      "epoch": 19,
+      "loss": 0.02541461861447284,
+      "val_auroc": 0.7725331452750352
+    },
+    {
+      "epoch": 20,
+      "loss": 0.023226344337066013,
+      "val_auroc": 0.7908705035971223
+    },
+    {
+      "epoch": 21,
+      "loss": 0.023969803387537982,
+      "val_auroc": 0.7972482168330955
+    },
+    {
+      "epoch": 22,
+      "loss": 0.022258255129250195,
+      "val_auroc": 0.7973902439024391
+    },
+    {
+      "epoch": 23,
+      "loss": 0.023020096385899264,
+      "val_auroc": 0.809962742175857
+    },
+    {
+      "epoch": 24,
+      "loss": 0.022089265716763642,
+      "val_auroc": 0.7873715925394548
+    },
+    {
+      "epoch": 25,
+      "loss": 0.020658643868489143,
+      "val_auroc": 0.7740325779036827
+    },
+    {
+      "epoch": 26,
+      "loss": 0.020093624050227497,
+      "val_auroc": 0.7683718887262079
+    },
+    {
+      "epoch": 27,
+      "loss": 0.01979730015572829,
+      "val_auroc": 0.7799616477272727
+    },
+    {
+      "epoch": 28,
+      "loss": 0.020013587477688607,
+      "val_auroc": 0.7948917018284107
+    },
+    {
+      "epoch": 29,
+      "loss": 0.01930334555128446,
+      "val_auroc": 0.7838875912408759
+    },
+    {
+      "epoch": 30,
+      "loss": 0.018148507803487472,
+      "val_auroc": 0.7793379501385042
+    },
+    {
+      "epoch": 31,
+      "loss": 0.018580108498915646,
+      "val_auroc": 0.7631483594864479
+    },
+    {
+      "epoch": 32,
+      "loss": 0.01927071537535924,
+      "val_auroc": 0.7738486562942009
+    },
+    {
+      "epoch": 33,
+      "loss": 0.01955899161597093,
+      "val_auroc": 0.8000014306151645
+    },
+    {
+      "epoch": 34,
+      "loss": 0.018028446186620455,
+      "val_auroc": 0.7888668555240793
+    },
+    {
+      "epoch": 35,
+      "loss": 0.018048596544525564,
+      "val_auroc": 0.788212298682284
+    },
+    {
+      "epoch": 36,
+      "loss": 0.01702952628525404,
+      "val_auroc": 0.8126417489421721
+    },
+    {
+      "epoch": 37,
+      "loss": 0.016912193921131965,
+      "val_auroc": 0.8049392592592592
+    },
+    {
+      "epoch": 38,
+      "loss": 0.01640369404011812,
+      "val_auroc": 0.7954283746556474
+    },
+    {
+      "epoch": 39,
+      "loss": 0.017606160652480628,
+      "val_auroc": 0.807793768545994
+    },
+    {
+      "epoch": 40,
+      "loss": 0.01631855085874215,
+      "val_auroc": 0.7957632711621234
+    }
+  ],
+  "config": {
+    "assignments": "cluster_assignments.tsv",
+    "labels": "labelled.tsv",
+    "synthetic": false,
+    "out": "ml_125es",
+    "epochs": 40,
+    "emb_dim": 64,
+    "test_frac": 0.3,
+    "seed": 0,
+    "quiet": false
+  }
+}

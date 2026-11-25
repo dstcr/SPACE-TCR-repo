@@ -1,0 +1,13 @@
+analysis,method,basis,purity,n_keys,n_clusters
+focal_0.75A_cdr3b,SPACE-TCR RMSD (0.75A),as_published,0.996283,538,101
+focal_0.75A_cdr3b,SPACE-TCR RMSD (0.75A),validated_only,1.0,204,52
+focal_0.75A_cdr3b,SPACE-TCR RMSD (0.75A),non-validating_relabelled,0.957249,538,101
+focal_0.75A_cdr3b,SPACE-TCR RMSD (1A),as_published,0.986647,674,106
+focal_0.75A_cdr3b,SPACE-TCR RMSD (1A),validated_only,0.996479,284,62
+focal_0.75A_cdr3b,SPACE-TCR RMSD (1A),non-validating_relabelled,0.945104,674,106
+focal_0.75A_cdr3b,clusTCR,as_published,0.997245,363,87
+focal_0.75A_cdr3b,clusTCR,validated_only,1.0,83,28
+focal_0.75A_cdr3b,clusTCR,non-validating_relabelled,0.964187,363,87
+permissive_1.25A_paired,SPACE-TCR RMSD (1.25A),as_published,0.95875,800,120
+permissive_1.25A_paired,SPACE-TCR RMSD (1.25A),validated_only,0.990234,512,75
+permissive_1.25A_paired,SPACE-TCR RMSD (1.25A),non-validating_relabelled,0.8775,800,120

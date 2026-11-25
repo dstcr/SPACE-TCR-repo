@@ -1,0 +1,27 @@
+{
+  "denom": 849,
+  "n_train": 648,
+  "seed": 0,
+  "seeds": 3,
+  "epochs": 40,
+  "universe": "labelled",
+  "split": {
+    "n_epitopes_total": 33,
+    "n_epitopes_test": 10,
+    "test_epitopes": [
+      "ALWEIQQVV",
+      "CTELKLSDY",
+      "FTSDYYQLY",
+      "GLCTLVAML",
+      "ILAKFLHWL",
+      "LTDEMIAQY",
+      "NLVPMVATV",
+      "SLLMWITQC",
+      "WPVTLACFV",
+      "YVLDHLIVV"
+    ],
+    "n_train": 648,
+    "n_test": 171,
+    "n_test_dropped_shared_cdr3b": 1
+  }
+}
